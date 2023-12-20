@@ -1,7 +1,9 @@
 import turtle as t
 import random
-
+from turtle import Screen
 tim = t.Turtle()
+screen = Screen()
+screen.bgcolor("green")
 t.colormode(255)
 #colors = ["red","medium blue","magenta","orange","lime","dark violet"]
 directions = [0,90,180,200]
